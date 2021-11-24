@@ -112,7 +112,7 @@ public class Propostas {
     	
     	System.out.println("\nInformações das Propostas");
     	
-    	for(int i = 0, j = 1; i < propostaList.size(); i++) {
+    	for(int i = 0, j = 1; i < propostaList.size(); i++, j++) {
     		
     		if(propostaList.get(i).getIdCliente() == id) {
     			System.out.println("\n" + j + " - Proposta");
@@ -135,7 +135,7 @@ public class Propostas {
     	
     	System.out.println("\nInformações das Propostas");	
     	
-    	for(int i = 0, j = 1; i < propostaList.size(); i++) {
+    	for(int i = 0, j = 1; i < propostaList.size(); i++, j++) {
     		
     		if(propostaList.get(i).getIdCliente() == id) {
     			System.out.println("\n" + j + " - Proposta");

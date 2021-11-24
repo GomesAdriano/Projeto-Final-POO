@@ -16,15 +16,20 @@ public class app {
 	  Servico s = new Servico();
 	  
 	  c.cadastrar();
+	  //c.cadastrar();
+	  //c.cadastrar();
 	  idCliente = c.login();	  
 	  c.exibirInfo(idCliente);
 	  
 	  p.cadastrarProposta(idCliente);
+	  //p.cadastrarProposta(idCliente);
+	  //p.cadastrarProposta(idCliente);
 	  p.exibirProposta(idCliente);
 	  
 	  c.logout();
 	  
 	  e.cadastrar();
+	  //e.cadastrar();
 	  idEspecialista = e.login();	  
 	  e.exibirInfo(idEspecialista);
 	  
